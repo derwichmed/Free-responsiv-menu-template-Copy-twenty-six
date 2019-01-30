@@ -1,0 +1,478 @@
+.backgroud_image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%
+}
+.effect_backgroud_image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45,45,45,.50);                                          
+}
+body > header{
+    height: 60px;
+    border-bottom: #b0a9aa 0.5px solid;
+    background-color: transparent
+}
+header .nav_bar .nav_bar_item{
+    font-family: 'Raleway';
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    display: inline-block;
+    cursor: pointer
+}
+header .nav_bar .nav_bar_item:hover{
+    background-color: rgba(45,45,45,.70);                                          
+}
+header .nav_bar .nav_bar_item > div{
+    position: relative;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+header .nav_bar .nav_bar_item > div .icon{
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 2px
+}
+header .nav_bar .nav_bar_item .drop_down{
+  width: 12px;
+  height: 12px;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  margin-top: 5px
+}
+.mega_menu_four > div > div{
+    position: relative;
+}
+.mega_menu_four .mega_menu_4_image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    margin-bottom: 20px
+}
+.mega_menu_four .mega_menu_4_image_effect{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    background-color: rgba(45,45,45,.50);                                          
+}
+.mega_menu header{
+    margin-bottom: 10px
+}
+.mega_menu header strong{
+    display: block;
+    padding: 10px;
+    font-family: 'Raleway';
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    border-bottom: #b0a9aa 0.5px solid;
+}
+.mega_menu section .post_item img{
+    height: 70px;
+    width: 100%;
+    margin-right: 10px
+}
+.mega_menu section .post_item{
+    padding-left: 30px;
+    margin-bottom: 10px
+}
+.mega_menu section .post_item em{
+    font-family: 'Raleway';
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;   
+}
+.mega_menu section .post_item p{
+    line-height: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;   
+}
+.mega_menu section .image_item img{
+    display: block;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px
+}
+.mega_menu section .image_item p{
+    line-height: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;   
+}
+.mega_menu section .listing_demo_item img{
+    width: 25px;
+    height: 25px
+}
+.mega_menu section .listing_demo_item em{
+    font-family: 'Raleway';
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.mega_menu section .listing_demo_item p{
+    line-height: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.mega_menu section .ecommerce_item img{
+    width: 100%;
+    height: 85px;
+}
+.mega_menu section .ecommerce_item strong{
+    font-family: 'Raleway';
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    display: block
+}
+.mega_menu section .ecommerce_item em{
+    font-family: 'Raleway';
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: gold;
+    display: block
+}
+.mega_menu section .ecommerce_item p{
+    line-height: 15px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.mega_menu_two .mega_menu_two_image img{
+    width: 100%;
+    height: 350px;
+    margin: 10px
+}
+.mega_menu section .liste_view_item{
+    margin-bottom: 10px
+}
+.mega_menu section .liste_view_item img{
+    width: 25px;
+    height: 25px;
+}
+.mega_menu section .liste_view_item strong{
+    font-family: 'Raleway';
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.mega_menu section .liste_view_item p{
+    color: white;
+    font-size: 12px
+}
+.drop_down_menu{
+    background-color: rgba(45,45,45,.85);                                          
+    width: 200px;
+    padding: 0px;
+    list-style: none;
+    display: none
+}
+.drop_down_menu .item{
+    width: 100%;
+    font-family: 'Raleway';
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #878784;
+    display: block;
+    cursor: pointer
+}
+.drop_down_menu .item > div{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px
+}
+.drop_down_menu .item:hover{
+    background-color: #878784;
+    color: white;
+    font-weight: bold
+}
+.drop_down_menu .item > div > .drop_down_icon{
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-top: 8px
+}
+.drop_down_menu .item > div > .item_icon{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.drop_down_menu .sub_menu{
+    width: 200px;
+    background-color: rgba(45,45,45,.85);
+    padding: 0px;
+    list-style: none;
+    display: none
+}
+.drop_down_menu .sub_menu .item > div{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.mega_menu .contact_mega_menu_item .location_image{
+    width: 100%;
+    height: 250px;
+}
+.mega_menu .contact_mega_menu_item p{
+    color: white;
+    font-size: 15px
+}
+.mega_menu .contact_mega_menu_item ul{
+    list-style: decimal
+}
+
+header .icons_navs_bar .item img{
+    width: 25px;
+    height: 25px
+}
+header .icons_navs_bar .item{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 60px;
+    cursor: pointer;
+    padding-top: 18px;
+    display: inline-block
+}
+header .icons_navs_bar .item:hover{
+    background-color: rgba(45,45,45,.70);                                          
+}
+header .icons_navs_bar .search_page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    z-index: 10000;
+    background-color: rgba(45,45,45,.800);
+    display: none
+}
+header .icons_navs_bar .search_page > div{
+    position: relative;
+    border: white 1px solid;
+    height: 100%
+}
+header .icons_navs_bar .search_page .input-group-text{
+    height: 60px;
+    background-color: transparent;
+    border: none
+}
+header .icons_navs_bar .search_page .form-control{
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+header .icons_navs_bar .search_page input:focus{
+    outline: none
+}
+header .icons_navs_bar .search_page .input-group{
+    border-bottom: white 3px solid
+}
+header .icons_navs_bar .search_page .form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+header .icons_navs_bar .search_page .form-control::placeholder{
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+header .icons_navs_bar .search_page .form-control{
+    color: white;
+    font-weight: bold;
+    font-size: 20px
+}
+header .icons_navs_bar .search_page .input-group-text img{
+    width: 20px;
+    height: 20px
+}
+header .icons_navs_bar .search_page .exit_search{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    width: 50px;
+    height: 50px
+}
+header .logo{
+    width: 100%;
+    height: 60px
+}
+header .mobile_nav{
+    display: none;
+    width: 100%;
+    height: 50px
+}
+header .mobile_nav .sigle_menu{
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+.mobile_navs em{
+    color: white;
+    font-weight: bold;
+    display: none;
+    padding-top: 10px
+}
+.mobile_navs .menu_icon{
+    width: 35px;
+    height: 30px;
+    float: right;
+    display: none;
+    margin-top: 10px
+}
+.mobile_navs .home_icon{
+    width: 35px;
+    height: 30px;
+    float: left;
+    display: none;
+    margin-top: 10px
+}
+.mobile_navs{
+    text-align: center
+}
+.mega_menu{
+    display: none
+}
+@media(min-width: 900px){
+    
+.mega_menu_one > div{
+    background-color: rgba(45,45,45,.70);                                          
+}
+.mega_menu_two > div{
+    background-color: #c9c9c9
+}
+.mega_menu_three > div{
+    background-color: #4e5056
+}
+
+.mega_menu{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 60px;
+    display: none
+}
+header .nav_bar .nav_bar_item > div{
+    height: 60px;
+}
+.drop_down_menu{
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+.drop_down_menu .sub_menu{
+    position: absolute;
+    top: 0;
+}
+
+.sub_menu_left{
+    right: 100%
+}
+.sub_menu_right{
+    left: 100%
+}
+}
+@media(max-width: 900px){
+    .mobile_navs em,
+    .mobile_navs .menu_icon{
+        display: inline-block
+    }
+    .mobile_navs{
+        background-color: #d51f3c
+    }
+    header .icons_navs_bar{
+        width: 100%;
+        background-color: rgba(45,45,45,.50);    
+        text-align: center;
+        display: none
+    }
+    header .logo{
+        display: none
+    }
+    .mobile_navs .home_icon{
+        display: inline-block;
+    }
+    .mobile_navs{
+        height: 50px
+    }
+    header .nav_bar{
+        width: 100%;
+        background-color: rgba(200,71,81,.50);  
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: none
+    }
+    header .nav_bar .nav_bar_item{
+        display: block;
+        width: 100%;
+        border-bottom: #812e33 1px solid
+    }
+    body > header{
+        border: none;
+    }
+    .mega_menu{
+        background-color: #a1313f;
+    }
+    .mega_menu > div{
+        margin-top: 20px
+    }
+    header .nav_bar .nav_bar_item > div{
+        min-height: 60px
+    }
+    .drop_down_menu{
+        width: 100%;
+        background-color: #a1313f;
+    }
+    .drop_down_menu .sub_menu{
+        width: 100%;
+        background-color: #a1313f;
+    }
+    header .nav_bar .nav_bar_item .drop_down{
+        margin-bottom: 20px
+    }
+    
+}
